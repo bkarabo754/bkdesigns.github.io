@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaFX_Vehicle.jnlp">
+  <information>
+    <title>JavaFX_Vehicle</title>
+    <vendor>BLAZIN B</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaFX_Vehicle.jar" size="15769" download="eager" />
+    <jar href="lib\AbsoluteLayout.jar" size="2903" download="eager" />
+  </resources>
+  <application-desc main-class="Vehicles.Vehicle"  name="JavaFX_Vehicle" >
+  </application-desc>
+  <update check="always"/>
+</jnlp>
